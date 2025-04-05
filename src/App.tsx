@@ -1,9 +1,13 @@
+import Explorer from "./features/explorer/Explorer";
+import ExamplePage from "./shared/components/ExamplePage";
+
 function App() {
-	return (
-		<>
-			<h1 className="text-3xl font-bold underline">ReqQuest</h1>
-		</>
-	);
+    return (
+        <div className="flex flex-row">
+            <Explorer />
+            <ExamplePage />
+        </ div>
+    );
 }
 
 export default App;
