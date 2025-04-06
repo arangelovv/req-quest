@@ -6,7 +6,7 @@ function App() {
         <div className="flex flex-row">
             <Explorer />
             <ExamplePage />
-        </ div>
+        </div>
     );
 }
 
