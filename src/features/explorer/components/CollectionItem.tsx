@@ -3,7 +3,7 @@ import { ChevronRight } from "lucide-react";
 import { Plus } from "lucide-react";
 import { EllipsisVertical } from "lucide-react";
 import { ChevronDown } from "lucide-react";
-
+import RequestItem from "./RequestItem";
 import { useState } from "react";
 
 export default function CollectionItem() {
@@ -43,13 +43,13 @@ export default function CollectionItem() {
             </div>
             {toggled && (
                 <div className="pl-8 ">
-                    <span className="text-xs">This collection is empty.</span>
+                {/*<span className="text-xs">This collection is empty.</span>*/}
+                <RequestItem />
                 </div>
             )}
         </div>
     );
 }
 
-//Todo: Open Collection
 //Todo: Collection Action menu
 //---- Working Actions
