@@ -1,10 +1,7 @@
 
 Phase 1:
-1. Action Group Component
-    -Create ActionsMenu component with two options 'add collection' & 'add project'
 2. Collection Item Component
     -Create CollectionActions menu component(think about what actions it should have)
-    -Create RequestItem component
 
 Phase 2:
 1. Create dummy data object for collection
