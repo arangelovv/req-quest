@@ -1,7 +1,7 @@
 # ReqQuest
 🚀 ReqQuest is an open-source web application that streamlines API testing by providing an intuitive platform for managing HTTP requests.
-<<<<<<< HEAD
-=======
+
+![img alt](public/app-screenshot-1.png)
 
 ## 🖥️ Technologies
 
@@ -54,4 +54,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## 👥 Authors
 
 - Alexander Rangelov - [Github](https://github.com/arangelovv)
->>>>>>> ff18ae106c1898bc716462777230c4ae19a01d0f
