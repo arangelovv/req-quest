@@ -5,14 +5,15 @@ import { EllipsisVertical } from "lucide-react";
 import { ChevronDown } from "lucide-react";
 import RequestItem from "./RequestItem";
 import { useState } from "react";
+import { Request } from "../../../shared/entities/request";
+import { Collection } from "../../../shared/entities/collection";
 
-export default function CollectionItem() {
+export default function CollectionItem({ collectionName, collectionRequests, collectionId }: Collection) {
     const [toggled, setToggled] = useState(false);
 
     const toggleCollection = () => {
         setToggled(!toggled);
     };
-
     return (
         <div
             className="flex flex-col select-none
@@ -29,7 +30,7 @@ export default function CollectionItem() {
                 )}
                 <div className="flex flex-row items-center gap-2 grow">
                     <Database className="w-4 h-4 text-violet-500" />
-                    <span className="text-sm">Simple collection</span>
+                    <span className="text-sm">{collectionName}</span>
                 </div>
                 <div className="flex flex-row items-center gap-2">
                     <button className="p-1 hover:bg-gray-300 rounded-md  cursor-pointer">
@@ -43,13 +44,17 @@ export default function CollectionItem() {
             </div>
             {toggled && (
                 <div className="pl-8 ">
-                {/*<span className="text-xs">This collection is empty.</span>*/}
-                <RequestItem />
+                    {collectionRequests?.length && collectionRequests.length > 0 ? (
+                        collectionRequests.map((request:Request) => (
+                            <RequestItem
+                                requestName={request.requestName}
+                                requestMethod={request.requestMethod}
+                            />
+                        ))
+                    ) : (<span className="text-xs">This collection is empty.</span>)}
+
                 </div>
             )}
         </div>
     );
 }
-
-//Todo: Collection Action menu
-//---- Working Actions
