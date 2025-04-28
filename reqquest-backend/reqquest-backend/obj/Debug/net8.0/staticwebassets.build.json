@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "aRC6KqPA49MYpSdABTDGUg7LM1MhIDmgn53ETuRvkt0=",
+  "Source": "reqquest-backend",
+  "BasePath": "_content/reqquest-backend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
