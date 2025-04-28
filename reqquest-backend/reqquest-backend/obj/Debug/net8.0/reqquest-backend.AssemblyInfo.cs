@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("reqquest-backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06ec72da71bc41da6fc433f308c1f56a2d9d6f02")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a432be3fad9d7ce0d26eb30ecea7d16c50faaf8")]
 [assembly: System.Reflection.AssemblyProductAttribute("reqquest-backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("reqquest-backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
