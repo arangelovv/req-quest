@@ -1,8 +1,0 @@
-
-Phase 1:
-2. Collection Item Component
-    -Create CollectionActions menu component(think about what actions it should have)
-
-Phase 2:
-1. Create dummy data object for collection
-2. Search bar funcctionality

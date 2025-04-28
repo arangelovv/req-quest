@@ -1,5 +1,6 @@
 import ActionGroup from "./components/ActionGroup";
 import CollectionsList from "./components/CollectionsList";
+import ProjectsList from "./components/ProjectsList";
 import { SearchBar } from "./components/SearchBar";
 
 export default function Explorer() {
@@ -13,6 +14,7 @@ export default function Explorer() {
                 <SearchBar />
             </div>
             <CollectionsList />
+            <ProjectsList />
         </div>
     );
 }
