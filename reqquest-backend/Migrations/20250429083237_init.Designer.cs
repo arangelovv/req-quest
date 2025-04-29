@@ -12,7 +12,7 @@ using reqquest_backend.Data;
 namespace reqquest_backend.Migrations
 {
     [DbContext(typeof(ApplicationDdContext))]
-    [Migration("20250428204720_init")]
+    [Migration("20250429083237_init")]
     partial class init
     {
         /// <inheritdoc />
