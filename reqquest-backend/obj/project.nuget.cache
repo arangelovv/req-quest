@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EIfF2L/6MEQ=",
+  "dgSpecHash": "6Ht/mDTPeNg=",
   "success": true,
-  "projectFilePath": "/Users/alexandar/Rangelovv/Development/Web Apps/ReqQuest/reqquest-backend/reqquest-backend/reqquest-backend.csproj",
+  "projectFilePath": "/Users/alexandar/Rangelovv/Development/Web Apps/ReqQuest/reqquest-backend/reqquest-backend.csproj",
   "expectedPackageFiles": [
     "/Users/alexandar/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/alexandar/.nuget/packages/microsoft.aspnetcore.openapi/8.0.8/microsoft.aspnetcore.openapi.8.0.8.nupkg.sha512",

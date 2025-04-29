@@ -3400,11 +3400,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/alexandar/Rangelovv/Development/Web Apps/ReqQuest/reqquest-backend/reqquest-backend/reqquest-backend.csproj",
+      "projectUniqueName": "/Users/alexandar/Rangelovv/Development/Web Apps/ReqQuest/reqquest-backend/reqquest-backend.csproj",
       "projectName": "reqquest-backend",
-      "projectPath": "/Users/alexandar/Rangelovv/Development/Web Apps/ReqQuest/reqquest-backend/reqquest-backend/reqquest-backend.csproj",
+      "projectPath": "/Users/alexandar/Rangelovv/Development/Web Apps/ReqQuest/reqquest-backend/reqquest-backend.csproj",
       "packagesPath": "/Users/alexandar/.nuget/packages/",
-      "outputPath": "/Users/alexandar/Rangelovv/Development/Web Apps/ReqQuest/reqquest-backend/reqquest-backend/obj/",
+      "outputPath": "/Users/alexandar/Rangelovv/Development/Web Apps/ReqQuest/reqquest-backend/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/alexandar/.nuget/NuGet/NuGet.Config"
