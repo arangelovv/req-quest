@@ -17,3 +17,7 @@ func (server *Server) RunServer() error {
 	router := gin.Default()
 	return http.ListenAndServe(server.serverAddr, router)
 }
+
+func (server *Server) GetAddr() string{
+	return server.serverAddr
+}
