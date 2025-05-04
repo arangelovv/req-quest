@@ -1,4 +1,5 @@
 # ReqQuest
+
 🚀 ReqQuest is an open-source web application that streamlines API testing by providing an intuitive platform for managing HTTP requests.
 
 ![img alt](reqquest-frontend/public/app-screenshot-1.png)
@@ -7,12 +8,12 @@
 
 - **React 18** - A JavaScript library for building user interfaces
 - **TypeScript** - For type-safe code
-- **Vite** - A frontedn build tool
+- **Vite** - A frontend build tool
 - **TanStack Router** - Type-safe routing for React
 - **Tailwind CSS** - A utility-first CSS framework
 - **Zustand** - A small, fast and scalable state management solution
 - **Lucide Icons** - Beautiful & consistent icons
-- **.NET 8 Web API** — C# backend providing RESTful API endpoints with MySQL database integration
+- **Go (Golang)** — Backend service written in Go, providing RESTful API endpoints with MySQL integration
 - **MySQL** — Relational database used for storing application data
 
 ## 🎨 Design
@@ -25,7 +26,8 @@ Before you begin, ensure you have the following installed:
 
 - Node.js (version 18.0.0 or higher)
 - npm (version 8.0.0 or higher)
-- .NET SDK 8.0
+- Angular CLI
+- Go (version 1.20 or higher)
 - MySQL Server
 
 ## 🛠️ Installation
@@ -38,7 +40,7 @@ cd req-quest
 ```
 
 2. Install frontend dependencies and start the development server:
-   
+
 ```bash
 cd reqquest-frontend
 ```
@@ -50,35 +52,9 @@ npm install
 ```bash
 npm run dev
 ```
+
 The application will be available at `http://localhost:5173`
 
-3. Install backend dependencies and start the development server:
-```bash
-cd reqquest-backend
-```
-
-- Restore .NET dependencies
-```bash
-dotnet restore
-```
-
-- Make sure the appsettings.json contains the correct MySQL connection string, for example:
-```json
-"ConnectionStrings": {
-  "DefaultConnection": "server=localhost;port=3306;database=reqquestdb;user=root;password=yourpassword;"
-}
-```
-
-- Apply any database migrations
-```bash
-dotnet ef database update
-```
-
-- Run the backend server
-```bash
-dotnet run
-```
-   
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
