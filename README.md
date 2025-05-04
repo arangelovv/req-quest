@@ -26,7 +26,7 @@ Before you begin, ensure you have the following installed:
 
 - Node.js (version 18.0.0 or higher)
 - npm (version 8.0.0 or higher)
-- Angular CLI
+- React (version 18 or higher)
 - Go (version 1.20 or higher)
 - MySQL Server
 
